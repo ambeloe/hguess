@@ -28,7 +28,7 @@ func rMain() int {
 	for _, filename := range os.Args[1:] {
 		f, err = os.ReadFile(filename)
 		if err != nil {
-			_, _ = fmt.Fprintf(os.Stderr, "Error reading file: %s, %v\n", filename, err)
+			_, _ = fmt.Fprintf(os.Stderr, "Error reading file \"%s\":, %v\n", filename, err)
 			return 1
 		}
 		for _, hash := range algs {
