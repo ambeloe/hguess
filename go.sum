@@ -1,0 +1,4 @@
+github.com/htruong/go-md2 v0.0.0-20170914203617-c69905b63f6f h1:GcDipGuLklPyATFZtZcwsN4WFCBhQdRsVoJL1vDLp64=
+github.com/htruong/go-md2 v0.0.0-20170914203617-c69905b63f6f/go.mod h1:uMYyN0e+BBSemEoe2Ys7jLGs6DIV9zc6Sj8gTHK1XOI=
+golang.org/x/crypto v0.13.0 h1:mvySKfSWJ+UKUii46M40LOvyWfN0s2U+46/jDd0e6Ck=
+golang.org/x/crypto v0.13.0/go.mod h1:y6Z2r+Rw4iayiXXAIxJIDAJ1zMW4yaTpebo8fPOliYc=
