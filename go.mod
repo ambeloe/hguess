@@ -1,4 +1,4 @@
-module hguess
+module github.com/ambeloe/hguess
 
 go 1.21.1
 
