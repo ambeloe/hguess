@@ -19,7 +19,11 @@ func rMain() int {
 	var err error
 	var f []byte
 
-	var algs = []HashAlg{md2{}, md4{}, md5{}, sha1{}, sha256{}, sha512{}}
+	var algs = []HashAlg{
+		md2{}, md4{}, md5{},
+		sha1{}, sha256{}, sha512{},
+		ripemd160{},
+	}
 
 	for _, filename := range os.Args[1:] {
 		f, err = os.ReadFile(filename)
